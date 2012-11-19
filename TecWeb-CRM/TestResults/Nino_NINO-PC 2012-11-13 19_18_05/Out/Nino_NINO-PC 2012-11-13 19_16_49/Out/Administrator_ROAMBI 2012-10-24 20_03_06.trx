@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ae12afbf-c1de-438c-9771-64a5f0ac3997" name="Administrator@ROAMBI 2012-10-24 20:03:06" runUser="ROAMBI\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c64711a4-0654-447b-bdfe-06f83aac8f92">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ROAMBI 2012-10-24 20_03_06">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-24T20:03:06.4098700-02:00" queuing="2012-10-24T20:03:06.4186585-02:00" start="2012-10-24T20:03:06.5368150-02:00" finish="2012-10-24T20:03:08.6040655-02:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="6" executed="6" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InserirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="529765cb-1eea-94bf-b143-4b218e5b8a36">
+      <Execution id="b119548c-617e-449b-9b8d-07e759f7b876" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CRM_DAO_PessoaConstructorTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="4f5b839a-215d-e6d4-a0de-94b7c218b2e1">
+      <Execution id="b35c9746-4aa3-4c92-b273-be1daaee03dc" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRM_DAO_PessoaConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnectionTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="83a1b2eb-01d3-fd1a-463d-4796628a35e0">
+      <Execution id="e319729b-4932-42e3-b776-396362f78b46" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectionTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AlterarPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f">
+      <Execution id="9e699274-9528-4b3e-99ad-48ec4d4eb171" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlterarPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ExcluirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="72233ad4-4cf6-41f3-2bf9-4d1886f80555">
+      <Execution id="1704d9f7-2272-4ca0-bb03-7e60934fa1af" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcluirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SelecionarTodosPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="0617cf11-7817-cc32-76d0-458e3a3f0381">
+      <Execution id="f1ea3889-2166-49cc-ba54-046b5d5c2870" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarTodosPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0617cf11-7817-cc32-76d0-458e3a3f0381" executionId="f1ea3889-2166-49cc-ba54-046b5d5c2870" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" executionId="b35c9746-4aa3-4c92-b273-be1daaee03dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="529765cb-1eea-94bf-b143-4b218e5b8a36" executionId="b119548c-617e-449b-9b8d-07e759f7b876" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" executionId="1704d9f7-2272-4ca0-bb03-7e60934fa1af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" executionId="e319729b-4932-42e3-b776-396362f78b46" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" executionId="9e699274-9528-4b3e-99ad-48ec4d4eb171" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f1ea3889-2166-49cc-ba54-046b5d5c2870" testId="0617cf11-7817-cc32-76d0-458e3a3f0381" testName="SelecionarTodosPessoaTest" computerName="ROAMBI" duration="00:00:00.0224874" startTime="2012-10-24T20:03:06.6598540-02:00" endTime="2012-10-24T20:03:08.2495960-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1ea3889-2166-49cc-ba54-046b5d5c2870">
+    </UnitTestResult>
+    <UnitTestResult executionId="b35c9746-4aa3-4c92-b273-be1daaee03dc" testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" testName="CRM_DAO_PessoaConstructorTest" computerName="ROAMBI" duration="00:00:00.0001919" startTime="2012-10-24T20:03:08.2525255-02:00" endTime="2012-10-24T20:03:08.2925620-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b35c9746-4aa3-4c92-b273-be1daaee03dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="b119548c-617e-449b-9b8d-07e759f7b876" testId="529765cb-1eea-94bf-b143-4b218e5b8a36" testName="InserirPessoaTest" computerName="ROAMBI" duration="00:00:00.0003679" startTime="2012-10-24T20:03:08.2954915-02:00" endTime="2012-10-24T20:03:08.3345515-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b119548c-617e-449b-9b8d-07e759f7b876">
+    </UnitTestResult>
+    <UnitTestResult executionId="1704d9f7-2272-4ca0-bb03-7e60934fa1af" testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" testName="ExcluirPessoaTest" computerName="ROAMBI" duration="00:00:00.0056875" startTime="2012-10-24T20:03:08.3384575-02:00" endTime="2012-10-24T20:03:08.3931415-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1704d9f7-2272-4ca0-bb03-7e60934fa1af">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TESTE_DAO2.CRM_DAO_PessoaTest.ExcluirPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 118
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e319729b-4932-42e3-b776-396362f78b46" testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" testName="ConnectionTest" computerName="ROAMBI" duration="00:00:00.0003673" startTime="2012-10-24T20:03:08.4029065-02:00" endTime="2012-10-24T20:03:08.4448960-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e319729b-4932-42e3-b776-396362f78b46">
+    </UnitTestResult>
+    <UnitTestResult executionId="9e699274-9528-4b3e-99ad-48ec4d4eb171" testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" testName="AlterarPessoaTest" computerName="ROAMBI" duration="00:00:00.0009579" startTime="2012-10-24T20:03:08.4458725-02:00" endTime="2012-10-24T20:03:08.4917680-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e699274-9528-4b3e-99ad-48ec4d4eb171">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TESTE_DAO2.CRM_DAO_PessoaTest.AlterarPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 101
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

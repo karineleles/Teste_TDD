@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6123df7f-7e67-461d-8266-f4a19a357c45" name="Administrator@ROAMBI 2012-10-24 21:05:17" runUser="ROAMBI\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="DAO_TESTE" id="29caf658-1014-4538-8a40-308cfb1481e7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ROAMBI 2012-10-24 21_05_17">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-24T21:05:17.0232225-02:00" queuing="2012-10-24T21:05:17.9684745-02:00" start="2012-10-24T21:05:18.0993255-02:00" finish="2012-10-24T21:05:20.9116455-02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InserirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="529765cb-1eea-94bf-b143-4b218e5b8a36">
+      <Execution id="65f46bf6-701f-4367-abb3-dbe3a6c8d0cf" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CRM_DAO_PessoaConstructorTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="4f5b839a-215d-e6d4-a0de-94b7c218b2e1">
+      <Execution id="b8a4eaa1-b4ea-4535-9fd9-a40b7dadf400" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRM_DAO_PessoaConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnectionTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="83a1b2eb-01d3-fd1a-463d-4796628a35e0">
+      <Execution id="d3da0fda-1a76-4202-883a-89fcf2338e70" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectionTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AlterarPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f">
+      <Execution id="83a043fb-a0f8-4555-bd56-a5654c69b348" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlterarPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ExcluirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="72233ad4-4cf6-41f3-2bf9-4d1886f80555">
+      <Execution id="8b49c6ad-e31a-4f71-b2d9-e0dbb6b83ff4" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcluirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SelecionarTodosPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="0617cf11-7817-cc32-76d0-458e3a3f0381">
+      <Execution id="9a1bb3f4-6eb2-4b88-bb09-bdac412acb0a" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarTodosPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0617cf11-7817-cc32-76d0-458e3a3f0381" executionId="9a1bb3f4-6eb2-4b88-bb09-bdac412acb0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" executionId="b8a4eaa1-b4ea-4535-9fd9-a40b7dadf400" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="529765cb-1eea-94bf-b143-4b218e5b8a36" executionId="65f46bf6-701f-4367-abb3-dbe3a6c8d0cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" executionId="8b49c6ad-e31a-4f71-b2d9-e0dbb6b83ff4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" executionId="d3da0fda-1a76-4202-883a-89fcf2338e70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" executionId="83a043fb-a0f8-4555-bd56-a5654c69b348" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9a1bb3f4-6eb2-4b88-bb09-bdac412acb0a" testId="0617cf11-7817-cc32-76d0-458e3a3f0381" testName="SelecionarTodosPessoaTest" computerName="ROAMBI" duration="00:00:00.3252282" startTime="2012-10-24T21:05:18.1920930-02:00" endTime="2012-10-24T21:05:20.1226335-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9a1bb3f4-6eb2-4b88-bb09-bdac412acb0a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b8a4eaa1-b4ea-4535-9fd9-a40b7dadf400" testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" testName="CRM_DAO_PessoaConstructorTest" computerName="ROAMBI" duration="00:00:00.0001698" startTime="2012-10-24T21:05:20.1245865-02:00" endTime="2012-10-24T21:05:20.1626700-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8a4eaa1-b4ea-4535-9fd9-a40b7dadf400">
+    </UnitTestResult>
+    <UnitTestResult executionId="65f46bf6-701f-4367-abb3-dbe3a6c8d0cf" testId="529765cb-1eea-94bf-b143-4b218e5b8a36" testName="InserirPessoaTest" computerName="ROAMBI" duration="00:00:00.0004606" startTime="2012-10-24T21:05:20.3296515-02:00" endTime="2012-10-24T21:05:20.3755470-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65f46bf6-701f-4367-abb3-dbe3a6c8d0cf">
+    </UnitTestResult>
+    <UnitTestResult executionId="8b49c6ad-e31a-4f71-b2d9-e0dbb6b83ff4" testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" testName="ExcluirPessoaTest" computerName="ROAMBI" duration="00:00:00.0002869" startTime="2012-10-24T21:05:20.3775000-02:00" endTime="2012-10-24T21:05:20.4233955-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b49c6ad-e31a-4f71-b2d9-e0dbb6b83ff4">
+    </UnitTestResult>
+    <UnitTestResult executionId="d3da0fda-1a76-4202-883a-89fcf2338e70" testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" testName="ConnectionTest" computerName="ROAMBI" duration="00:00:00.0003947" startTime="2012-10-24T21:05:20.5933065-02:00" endTime="2012-10-24T21:05:20.6518965-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d3da0fda-1a76-4202-883a-89fcf2338e70">
+    </UnitTestResult>
+    <UnitTestResult executionId="83a043fb-a0f8-4555-bd56-a5654c69b348" testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" testName="AlterarPessoaTest" computerName="ROAMBI" duration="00:00:00.0003475" startTime="2012-10-24T21:05:20.6538495-02:00" endTime="2012-10-24T21:05:20.6938860-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83a043fb-a0f8-4555-bd56-a5654c69b348">
+    </UnitTestResult>
+  </Results>
+</TestRun>

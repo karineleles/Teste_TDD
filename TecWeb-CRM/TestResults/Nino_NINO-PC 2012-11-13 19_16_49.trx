@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b0ba7ca7-967e-4c70-9a4d-753851ee174f" name="Nino@NINO-PC 2012-11-13 19:16:49" runUser="Nino-PC\Nino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c64711a4-0654-447b-bdfe-06f83aac8f92">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="Nino_NINO-PC 2012-11-13 19_16_49">
+      <DeploymentItem filename="TestResults\" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+      </TestTypeSpecific>
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-13T19:16:49.1652723-02:00" queuing="2012-11-13T19:16:56.4086866-02:00" start="2012-11-13T19:16:56.9057151-02:00" finish="2012-11-13T19:16:58.8038236-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" error="0" failed="6" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InserirPessoaTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="529765cb-1eea-94bf-b143-4b218e5b8a36">
+      <Execution timeOut="1800000" id="73bfafb8-37e3-4ee0-921f-d97d4eba1904" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CRM_DAO_PessoaConstructorTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="4f5b839a-215d-e6d4-a0de-94b7c218b2e1">
+      <Execution timeOut="1800000" id="9d2f301d-ffc6-40ab-a685-9cd19b6d08ab" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRM_DAO_PessoaConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnectionTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="83a1b2eb-01d3-fd1a-463d-4796628a35e0">
+      <Execution timeOut="1800000" id="e63e1347-381b-4e0f-88be-9c68b9c149f4" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectionTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AlterarPessoaTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f">
+      <Execution timeOut="1800000" id="1af3c23d-99db-4f84-9f8f-ddcd0e1f3fe7" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlterarPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ExcluirPessoaTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="72233ad4-4cf6-41f3-2bf9-4d1886f80555">
+      <Execution timeOut="1800000" id="18911720-ca9a-4d5e-bc47-cd32efe1afe6" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcluirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SelecionarTodosPessoaTest" storage="c:\users\nino\appdata\local\temp\ujgctn3b.lal\teste_dao2.dll" id="0617cf11-7817-cc32-76d0-458e3a3f0381">
+      <Execution timeOut="1800000" id="31beabfa-acb6-4e51-86e2-6b1e5075806a" />
+      <TestMethod codeBase="C:/Users/Nino/AppData/Local/Temp/ujgctn3b.lal/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarTodosPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" executionId="1af3c23d-99db-4f84-9f8f-ddcd0e1f3fe7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" executionId="e63e1347-381b-4e0f-88be-9c68b9c149f4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" executionId="9d2f301d-ffc6-40ab-a685-9cd19b6d08ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" executionId="18911720-ca9a-4d5e-bc47-cd32efe1afe6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="529765cb-1eea-94bf-b143-4b218e5b8a36" executionId="73bfafb8-37e3-4ee0-921f-d97d4eba1904" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0617cf11-7817-cc32-76d0-458e3a3f0381" executionId="31beabfa-acb6-4e51-86e2-6b1e5075806a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1af3c23d-99db-4f84-9f8f-ddcd0e1f3fe7" testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" testName="AlterarPessoaTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.3327967-02:00" endTime="2012-11-13T19:16:58.5028064-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1af3c23d-99db-4f84-9f8f-ddcd0e1f3fe7">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e63e1347-381b-4e0f-88be-9c68b9c149f4" testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" testName="ConnectionTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.5208074-02:00" endTime="2012-11-13T19:16:58.5558094-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e63e1347-381b-4e0f-88be-9c68b9c149f4">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9d2f301d-ffc6-40ab-a685-9cd19b6d08ab" testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" testName="CRM_DAO_PessoaConstructorTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.5868112-02:00" endTime="2012-11-13T19:16:58.6098125-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d2f301d-ffc6-40ab-a685-9cd19b6d08ab">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="18911720-ca9a-4d5e-bc47-cd32efe1afe6" testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" testName="ExcluirPessoaTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.6358140-02:00" endTime="2012-11-13T19:16:58.6548151-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18911720-ca9a-4d5e-bc47-cd32efe1afe6">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="73bfafb8-37e3-4ee0-921f-d97d4eba1904" testId="529765cb-1eea-94bf-b143-4b218e5b8a36" testName="InserirPessoaTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.6678158-02:00" endTime="2012-11-13T19:16:58.6868169-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73bfafb8-37e3-4ee0-921f-d97d4eba1904">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31beabfa-acb6-4e51-86e2-6b1e5075806a" testId="0617cf11-7817-cc32-76d0-458e3a3f0381" testName="SelecionarTodosPessoaTest" computerName="NINO-PC" startTime="2012-11-13T19:16:58.7038179-02:00" endTime="2012-11-13T19:16:58.7218189-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31beabfa-acb6-4e51-86e2-6b1e5075806a">
+      <Output>
+        <ErrorInfo>
+          <Message>The Web site path 'C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM' does not exist. Tests configured to run in ASP.NET Development Server must specify a valid path to the Web site. Correct the AspNetDevelopmentServerHost attribute for the test. For more information about ASP.NET unit tests, see "How to: Create an ASP.NET Unit Test" (http://go.microsoft.com/fwlink/?LinkId=62608) and "Testing Web Services" (http://go.microsoft.com/fwlink/?LinkId=62609) in the MSDN Library.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

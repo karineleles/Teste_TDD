@@ -1,0 +1,9 @@
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\DTD Agenda.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\DTD Agenda.pdb
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\TecWeb-CRM.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\TecWeb-CRM.pdb
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\TecWeb-CRM_Accessor.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\bin\Debug\TecWeb-CRM_Accessor.pdb
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\obj\Debug\DTD Agenda.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\obj\Debug\DTD Agenda.pdb

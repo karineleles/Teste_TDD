@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="CRM_DataBaseModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="CRM_DataBaseModelStoreContainer">
+          <EntitySet Name="Agenda" EntityType="CRM_DataBaseModel.Store.Agenda" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Pessoa" EntityType="CRM_DataBaseModel.Store.Pessoa" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Pessoa_Fisica" EntityType="CRM_DataBaseModel.Store.Pessoa_Fisica" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Pessoa_Juridica" EntityType="CRM_DataBaseModel.Store.Pessoa_Juridica" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Agenda_Pessoa" Association="CRM_DataBaseModel.Store.FK_Agenda_Pessoa">
+            <End Role="Pessoa" EntitySet="Pessoa" />
+            <End Role="Agenda" EntitySet="Agenda" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Pessoa_fisica" Association="CRM_DataBaseModel.Store.FK_Pessoa_fisica">
+            <End Role="Pessoa" EntitySet="Pessoa" />
+            <End Role="Pessoa_Fisica" EntitySet="Pessoa_Fisica" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Pessoa_juridica" Association="CRM_DataBaseModel.Store.FK_Pessoa_juridica">
+            <End Role="Pessoa" EntitySet="Pessoa" />
+            <End Role="Pessoa_Juridica" EntitySet="Pessoa_Juridica" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Agenda">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="data" Type="varchar" Nullable="false" MaxLength="10" />
+          <Property Name="hora" Type="varchar" Nullable="false" MaxLength="5" />
+          <Property Name="comentario" Type="varchar" MaxLength="300" />
+          <Property Name="FK_Pessoa" Type="int" />
+          <Property Name="Data_Email" Type="varchar" MaxLength="30" />
+          <Property Name="Hora_Email" Type="varchar" MaxLength="5" />
+          <Property Name="Cod_Tipo" Type="int" />
+        </EntityType>
+        <EntityType Name="Pessoa">
+          <Key>
+            <PropertyRef Name="CodPessoa" />
+          </Key>
+          <Property Name="CodPessoa" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="usuário" Type="varchar" MaxLength="50" />
+          <Property Name="senha" Type="varchar" MaxLength="15" />
+          <Property Name="Nome" Type="varchar(max)" />
+          <Property Name="Email" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="Pessoa_Fisica">
+          <Key>
+            <PropertyRef Name="CodPessoaF" />
+          </Key>
+          <Property Name="CodPessoaF" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CodPessoa" Type="int" />
+          <Property Name="Cpf" Type="varchar(max)" />
+          <Property Name="Nome" Type="varchar(max)" />
+        </EntityType>
+        <EntityType Name="Pessoa_Juridica">
+          <Key>
+            <PropertyRef Name="CodPessoaj" />
+          </Key>
+          <Property Name="CodPessoaj" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CodPessoa" Type="int" />
+          <Property Name="Cnpj" Type="varchar(max)" />
+          <Property Name="RazaoSocial" Type="varchar(max)" />
+        </EntityType>
+        <Association Name="FK_Agenda_Pessoa">
+          <End Role="Pessoa" Type="CRM_DataBaseModel.Store.Pessoa" Multiplicity="0..1" />
+          <End Role="Agenda" Type="CRM_DataBaseModel.Store.Agenda" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Agenda">
+              <PropertyRef Name="FK_Pessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Pessoa_fisica">
+          <End Role="Pessoa" Type="CRM_DataBaseModel.Store.Pessoa" Multiplicity="0..1" />
+          <End Role="Pessoa_Fisica" Type="CRM_DataBaseModel.Store.Pessoa_Fisica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Pessoa_Fisica">
+              <PropertyRef Name="CodPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Pessoa_juridica">
+          <End Role="Pessoa" Type="CRM_DataBaseModel.Store.Pessoa" Multiplicity="0..1" />
+          <End Role="Pessoa_Juridica" Type="CRM_DataBaseModel.Store.Pessoa_Juridica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Pessoa_Juridica">
+              <PropertyRef Name="CodPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CRM_DataBaseModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="CRM_DataBaseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Pessoas" EntityType="CRM_DataBaseModel.Pessoa" />
+          <EntitySet Name="Pessoa_Fisica" EntityType="CRM_DataBaseModel.Pessoa_Fisica" />
+          <EntitySet Name="Pessoa_Juridica" EntityType="CRM_DataBaseModel.Pessoa_Juridica" />
+          <AssociationSet Name="FK_Pessoa_fisica" Association="CRM_DataBaseModel.FK_Pessoa_fisica">
+            <End Role="Pessoa" EntitySet="Pessoas" />
+            <End Role="Pessoa_Fisica" EntitySet="Pessoa_Fisica" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Pessoa_juridica" Association="CRM_DataBaseModel.FK_Pessoa_juridica">
+            <End Role="Pessoa" EntitySet="Pessoas" />
+            <End Role="Pessoa_Juridica" EntitySet="Pessoa_Juridica" />
+          </AssociationSet>
+          <EntitySet Name="Agenda" EntityType="CRM_DataBaseModel.Agendum" />
+          <AssociationSet Name="FK_Agenda_Pessoa" Association="CRM_DataBaseModel.FK_Agenda_Pessoa">
+            <End Role="Pessoa" EntitySet="Pessoas" />
+            <End Role="Agendum" EntitySet="Agenda" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Pessoa">
+          <Key>
+            <PropertyRef Name="CodPessoa" />
+          </Key>
+          <Property Type="Int32" Name="CodPessoa" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="usuário" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="senha" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nome" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Email" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Pessoa_Fisica" Relationship="CRM_DataBaseModel.FK_Pessoa_fisica" FromRole="Pessoa" ToRole="Pessoa_Fisica" />
+          <NavigationProperty Name="Pessoa_Juridica" Relationship="CRM_DataBaseModel.FK_Pessoa_juridica" FromRole="Pessoa" ToRole="Pessoa_Juridica" />
+          <NavigationProperty Name="Agenda" Relationship="CRM_DataBaseModel.FK_Agenda_Pessoa" FromRole="Pessoa" ToRole="Agendum" />
+        </EntityType>
+        <EntityType Name="Pessoa_Fisica">
+          <Key>
+            <PropertyRef Name="CodPessoaF" />
+          </Key>
+          <Property Type="Int32" Name="CodPessoaF" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="CodPessoa" />
+          <Property Type="String" Name="Cpf" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Nome" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Pessoa" Relationship="CRM_DataBaseModel.FK_Pessoa_fisica" FromRole="Pessoa_Fisica" ToRole="Pessoa" />
+        </EntityType>
+        <EntityType Name="Pessoa_Juridica">
+          <Key>
+            <PropertyRef Name="CodPessoaj" />
+          </Key>
+          <Property Type="Int32" Name="CodPessoaj" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="CodPessoa" />
+          <Property Type="String" Name="Cnpj" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="RazaoSocial" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Pessoa" Relationship="CRM_DataBaseModel.FK_Pessoa_juridica" FromRole="Pessoa_Juridica" ToRole="Pessoa" />
+        </EntityType>
+        <Association Name="FK_Pessoa_fisica">
+          <End Type="CRM_DataBaseModel.Pessoa" Role="Pessoa" Multiplicity="0..1" />
+          <End Type="CRM_DataBaseModel.Pessoa_Fisica" Role="Pessoa_Fisica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Pessoa_Fisica">
+              <PropertyRef Name="CodPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Pessoa_juridica">
+          <End Type="CRM_DataBaseModel.Pessoa" Role="Pessoa" Multiplicity="0..1" />
+          <End Type="CRM_DataBaseModel.Pessoa_Juridica" Role="Pessoa_Juridica" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Pessoa_Juridica">
+              <PropertyRef Name="CodPessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Agendum">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Type="Int32" Name="ID" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="data" Nullable="false" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="hora" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="comentario" MaxLength="300" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="FK_Pessoa" />
+          <Property Type="String" Name="Data_Email" MaxLength="30" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="Hora_Email" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="Cod_Tipo" />
+          <NavigationProperty Name="Pessoa" Relationship="CRM_DataBaseModel.FK_Agenda_Pessoa" FromRole="Agendum" ToRole="Pessoa" />
+        </EntityType>
+        <Association Name="FK_Agenda_Pessoa">
+          <End Type="CRM_DataBaseModel.Pessoa" Role="Pessoa" Multiplicity="0..1" />
+          <End Type="CRM_DataBaseModel.Agendum" Role="Agendum" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Pessoa">
+              <PropertyRef Name="CodPessoa" />
+            </Principal>
+            <Dependent Role="Agendum">
+              <PropertyRef Name="FK_Pessoa" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CRM_DataBaseModelStoreContainer" CdmEntityContainer="CRM_DataBaseEntities">
+          <EntitySetMapping Name="Pessoas">
+            <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa">
+              <MappingFragment StoreEntitySet="Pessoa">
+                <ScalarProperty Name="Email" ColumnName="Email" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="senha" ColumnName="senha" />
+                <ScalarProperty Name="usuário" ColumnName="usuário" />
+                <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pessoa_Fisica">
+            <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa_Fisica">
+              <MappingFragment StoreEntitySet="Pessoa_Fisica">
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="Cpf" ColumnName="Cpf" />
+                <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+                <ScalarProperty Name="CodPessoaF" ColumnName="CodPessoaF" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Pessoa_Juridica">
+            <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa_Juridica">
+              <MappingFragment StoreEntitySet="Pessoa_Juridica">
+                <ScalarProperty Name="RazaoSocial" ColumnName="RazaoSocial" />
+                <ScalarProperty Name="Cnpj" ColumnName="Cnpj" />
+                <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+                <ScalarProperty Name="CodPessoaj" ColumnName="CodPessoaj" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Agenda">
+            <EntityTypeMapping TypeName="CRM_DataBaseModel.Agendum">
+              <MappingFragment StoreEntitySet="Agenda">
+                <ScalarProperty Name="Cod_Tipo" ColumnName="Cod_Tipo" />
+                <ScalarProperty Name="Hora_Email" ColumnName="Hora_Email" />
+                <ScalarProperty Name="Data_Email" ColumnName="Data_Email" />
+                <ScalarProperty Name="FK_Pessoa" ColumnName="FK_Pessoa" />
+                <ScalarProperty Name="comentario" ColumnName="comentario" />
+                <ScalarProperty Name="hora" ColumnName="hora" />
+                <ScalarProperty Name="data" ColumnName="data" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="MDbanco">
+        <EntityTypeShape EntityType="CRM_DataBaseModel.Pessoa" Width="1.5" PointX="0.875" PointY="1.875" Height="2.5571907552083322" />
+        <EntityTypeShape EntityType="CRM_DataBaseModel.Pessoa_Fisica" Width="1.5" PointX="3.375" PointY="4" Height="1.9802864583333317" />
+        <EntityTypeShape EntityType="CRM_DataBaseModel.Pessoa_Juridica" Width="1.5" PointX="3" PointY="6.875" Height="1.9802864583333317" />
+        <AssociationConnector Association="CRM_DataBaseModel.FK_Pessoa_fisica" >
+          <ConnectorPoint PointX="2.375" PointY="4.2160953776041659" />
+          <ConnectorPoint PointX="3.375" PointY="4.2160953776041659" />
+        </AssociationConnector>
+        <AssociationConnector Association="CRM_DataBaseModel.FK_Pessoa_juridica" >
+          <ConnectorPoint PointX="1.625" PointY="4.4321907552083326" />
+          <ConnectorPoint PointX="1.625" PointY="7.8651432291666659" />
+          <ConnectorPoint PointX="3" PointY="7.8651432291666659" />
+        </AssociationConnector>
+        <EntityTypeShape EntityType="CRM_DataBaseModel.Agendum" Width="1.5" PointX="3.125" PointY="0.75" Height="2.7494921874999996" />
+        <AssociationConnector Association="CRM_DataBaseModel.FK_Agenda_Pessoa" >
+          <ConnectorPoint PointX="2.375" PointY="2.68724609375" />
+          <ConnectorPoint PointX="3.125" PointY="2.68724609375" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

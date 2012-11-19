@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll
+C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.pdb
+C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.dll
+C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.pdb
+C:\TEMP\desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll
+C:\TEMP\desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.pdb
+C:\TEMP\desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\ResolveAssemblyReference.cache
+C:\TEMP\desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.dll
+C:\TEMP\desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.pdb
+C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.pdb
+C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.dll
+C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\obj\Debug\TecWeb-CRM.pdb

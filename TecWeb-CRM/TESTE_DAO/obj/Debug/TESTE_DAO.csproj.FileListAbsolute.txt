@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\bin\Debug\TESTE_DAO.dll
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\bin\Debug\TESTE_DAO.pdb
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\bin\Debug\TecWeb-CRM.dll
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\bin\Debug\TecWeb-CRM.pdb
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\obj\Debug\ResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\obj\Debug\TESTE_DAO.dll
+\\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TESTE_DAO\obj\Debug\TESTE_DAO.pdb

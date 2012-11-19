@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c9c7b6a0-eef3-4177-be37-9e86088d7d12" name="Nino@NINO-PC 2012-11-13 19:23:51" runUser="Nino-PC\Nino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c64711a4-0654-447b-bdfe-06f83aac8f92">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Nino_NINO-PC 2012-11-13 19_23_51">
+      <DeploymentItem filename="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-13T19:23:51.2524143-02:00" queuing="2012-11-13T19:23:52.6514943-02:00" start="2012-11-13T19:23:52.6804960-02:00" finish="2012-11-13T19:24:03.2200988-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" error="0" failed="4" timeout="0" aborted="0" inconclusive="5" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SelecionarTodosAgendaTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="e65b68b8-5f79-fc2f-1498-bc3310555e4c">
+      <Execution id="c2d4ca79-aa51-4c61-bdf3-8008a0eaabd1" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarTodosAgendaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="EnviarEMailTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="986dc68d-b3cf-f4c9-8adf-7c18eb6cc910">
+      <Execution id="f8dba057-0501-43dc-80dd-fdce18ba4893" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnviarEMailTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="VerificaEmailTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="bc61ded5-eb86-6886-5afd-23b99691c309">
+      <Execution id="412439aa-96f3-4dd9-b7b2-8b552e6b36b8" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerificaEmailTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnectionTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="5e08d9fa-f989-e74a-56ee-960f47ae46e9">
+      <Execution id="ab693fe0-c4a5-43f1-8c50-738e814c26e9" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectionTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AtualizaAgendaDiaTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="50ad62bc-102b-f28c-7e54-c720046c6727">
+      <Execution id="7afa4b64-b675-44b3-ab25-f02e8d4de4ce" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtualizaAgendaDiaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="InserirAgendaTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="99ac508d-2045-6bc8-50f1-0817900d399a">
+      <Execution id="d2d4bd52-cf29-48ab-8623-1b3218d7d261" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirAgendaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CRM_DAO_AgendaConstructorTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="56871da8-9f7d-76e9-4788-ecd2cc2487e8">
+      <Execution id="dddcebb3-bcf0-4e6f-b2ce-037801f1fdb1" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRM_DAO_AgendaConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SelecionarAgendaTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="51060f9a-ca0f-0e14-3571-00eb9bedb6bf">
+      <Execution id="2f87f560-e8f5-41e7-abeb-ab695dc9de63" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarAgendaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ExcluirAgendaTest" storage="c:\users\nino\desktop\tecweb-crm\dtd agenda\bin\debug\dtd agenda.dll" id="6c680ae7-578a-a3e6-ec21-644c4f360fbf">
+      <Execution id="0e7041ce-b323-4468-80c0-e8360714bb0a" />
+      <TestMethod codeBase="C:/Users/Nino/Desktop/TecWeb-CRM/DTD Agenda/bin/Debug/DTD Agenda.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DTD_Agenda.CRM_DAO_AgendaTest, DTD Agenda, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcluirAgendaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="50ad62bc-102b-f28c-7e54-c720046c6727" executionId="7afa4b64-b675-44b3-ab25-f02e8d4de4ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51060f9a-ca0f-0e14-3571-00eb9bedb6bf" executionId="2f87f560-e8f5-41e7-abeb-ab695dc9de63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56871da8-9f7d-76e9-4788-ecd2cc2487e8" executionId="dddcebb3-bcf0-4e6f-b2ce-037801f1fdb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e08d9fa-f989-e74a-56ee-960f47ae46e9" executionId="ab693fe0-c4a5-43f1-8c50-738e814c26e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c680ae7-578a-a3e6-ec21-644c4f360fbf" executionId="0e7041ce-b323-4468-80c0-e8360714bb0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="986dc68d-b3cf-f4c9-8adf-7c18eb6cc910" executionId="f8dba057-0501-43dc-80dd-fdce18ba4893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99ac508d-2045-6bc8-50f1-0817900d399a" executionId="d2d4bd52-cf29-48ab-8623-1b3218d7d261" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc61ded5-eb86-6886-5afd-23b99691c309" executionId="412439aa-96f3-4dd9-b7b2-8b552e6b36b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e65b68b8-5f79-fc2f-1498-bc3310555e4c" executionId="c2d4ca79-aa51-4c61-bdf3-8008a0eaabd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7afa4b64-b675-44b3-ab25-f02e8d4de4ce" testId="50ad62bc-102b-f28c-7e54-c720046c6727" testName="AtualizaAgendaDiaTest" computerName="NINO-PC" duration="00:00:00.1298804" startTime="2012-11-13T19:23:52.7014972-02:00" endTime="2012-11-13T19:23:54.3095892-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7afa4b64-b675-44b3-ab25-f02e8d4de4ce">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.AtualizaAgendaDiaTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2f87f560-e8f5-41e7-abeb-ab695dc9de63" testId="51060f9a-ca0f-0e14-3571-00eb9bedb6bf" testName="SelecionarAgendaTest" computerName="NINO-PC" duration="00:00:00.0297044" startTime="2012-11-13T19:23:54.3365907-02:00" endTime="2012-11-13T19:23:54.4585977-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f87f560-e8f5-41e7-abeb-ab695dc9de63">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[TecWeb_CRM.CRM.Entidades.Agenda]&gt;. </Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.SelecionarAgendaTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 177
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dddcebb3-bcf0-4e6f-b2ce-037801f1fdb1" testId="56871da8-9f7d-76e9-4788-ecd2cc2487e8" testName="CRM_DAO_AgendaConstructorTest" computerName="NINO-PC" duration="00:00:00.0014806" startTime="2012-11-13T19:23:54.4605978-02:00" endTime="2012-11-13T19:23:54.5546032-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dddcebb3-bcf0-4e6f-b2ce-037801f1fdb1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.CRM_DAO_AgendaConstructorTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab693fe0-c4a5-43f1-8c50-738e814c26e9" testId="5e08d9fa-f989-e74a-56ee-960f47ae46e9" testName="ConnectionTest" computerName="NINO-PC" duration="00:00:00.0016950" startTime="2012-11-13T19:23:54.5586034-02:00" endTime="2012-11-13T19:23:54.6496086-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab693fe0-c4a5-43f1-8c50-738e814c26e9">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.ConnectionTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 238
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0e7041ce-b323-4468-80c0-e8360714bb0a" testId="6c680ae7-578a-a3e6-ec21-644c4f360fbf" testName="ExcluirAgendaTest" computerName="NINO-PC" duration="00:00:00.0017458" startTime="2012-11-13T19:23:54.6916110-02:00" endTime="2012-11-13T19:23:54.7616150-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e7041ce-b323-4468-80c0-e8360714bb0a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.ExcluirAgendaTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 140
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f8dba057-0501-43dc-80dd-fdce18ba4893" testId="986dc68d-b3cf-f4c9-8adf-7c18eb6cc910" testName="EnviarEMailTest" computerName="NINO-PC" duration="00:00:00.0167798" startTime="2012-11-13T19:23:54.7656153-02:00" endTime="2012-11-13T19:23:54.8836220-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8dba057-0501-43dc-80dd-fdce18ba4893">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DTD_Agenda.CRM_DAO_AgendaTest.EnviarEMailTest threw exception: 
+System.ArgumentException: O parâmetro 'addresses' não pode ser uma cadeia de caracteres vazia.
+Nome do parâmetro: addresses</Message>
+          <StackTrace>    em System.Net.Mail.MailAddressCollection.Add(String addresses)
+   em TecWeb_CRM.CRM.Dao.CRM_DAO_Agenda.EnviarEMail(String endereco, Int32 dia, String comentario) na C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Agenda.cs:linha 242
+   em DTD_Agenda.CRM_DAO_AgendaTest.EnviarEMailTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d2d4bd52-cf29-48ab-8623-1b3218d7d261" testId="99ac508d-2045-6bc8-50f1-0817900d399a" testName="InserirAgendaTest" computerName="NINO-PC" duration="00:00:00.0038385" startTime="2012-11-13T19:23:54.8876222-02:00" endTime="2012-11-13T19:23:54.9636266-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2d4bd52-cf29-48ab-8623-1b3218d7d261">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DTD_Agenda.CRM_DAO_AgendaTest.InserirAgendaTest threw exception: 
+System.NullReferenceException: Referência de objeto não definida para uma instância de um objeto.</Message>
+          <StackTrace>    em TecWeb_CRM.CRM.Dao.CRM_DAO_Agenda.InserirAgenda(Agenda agenda) na C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Agenda.cs:linha 73
+   em DTD_Agenda.CRM_DAO_AgendaTest.InserirAgendaTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 157
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="412439aa-96f3-4dd9-b7b2-8b552e6b36b8" testId="bc61ded5-eb86-6886-5afd-23b99691c309" testName="VerificaEmailTest" computerName="NINO-PC" duration="00:00:08.0803579" startTime="2012-11-13T19:23:54.9666268-02:00" endTime="2012-11-13T19:24:03.1190931-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="412439aa-96f3-4dd9-b7b2-8b552e6b36b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.VerificaEmailTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 217
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c2d4ca79-aa51-4c61-bdf3-8008a0eaabd1" testId="e65b68b8-5f79-fc2f-1498-bc3310555e4c" testName="SelecionarTodosAgendaTest" computerName="NINO-PC" duration="00:00:00.0047405" startTime="2012-11-13T19:24:03.1230933-02:00" endTime="2012-11-13T19:24:03.1890971-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2d4ca79-aa51-4c61-bdf3-8008a0eaabd1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Collections.Generic.List`1[TecWeb_CRM.CRM.Entidades.Agenda]&gt;. </Message>
+          <StackTrace>   em DTD_Agenda.CRM_DAO_AgendaTest.SelecionarTodosAgendaTest() na C:\Users\Nino\Desktop\TecWeb-CRM\DTD Agenda\CRM_DAO_AgendaTest.cs:linha 197
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

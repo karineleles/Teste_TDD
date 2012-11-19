@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CRM_DataBaseModelStoreContainer" CdmEntityContainer="CRM_DataBaseEntities">
+    <EntitySetMapping Name="Pessoas">
+      <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa">
+        <MappingFragment StoreEntitySet="Pessoa">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="usuário" ColumnName="usuário" />
+          <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa_Fisica">
+      <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa_Fisica">
+        <MappingFragment StoreEntitySet="Pessoa_Fisica">
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Cpf" ColumnName="Cpf" />
+          <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+          <ScalarProperty Name="CodPessoaF" ColumnName="CodPessoaF" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pessoa_Juridica">
+      <EntityTypeMapping TypeName="CRM_DataBaseModel.Pessoa_Juridica">
+        <MappingFragment StoreEntitySet="Pessoa_Juridica">
+          <ScalarProperty Name="RazaoSocial" ColumnName="RazaoSocial" />
+          <ScalarProperty Name="Cnpj" ColumnName="Cnpj" />
+          <ScalarProperty Name="CodPessoa" ColumnName="CodPessoa" />
+          <ScalarProperty Name="CodPessoaj" ColumnName="CodPessoaj" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Agenda">
+      <EntityTypeMapping TypeName="CRM_DataBaseModel.Agendum">
+        <MappingFragment StoreEntitySet="Agenda">
+          <ScalarProperty Name="Cod_Tipo" ColumnName="Cod_Tipo" />
+          <ScalarProperty Name="Hora_Email" ColumnName="Hora_Email" />
+          <ScalarProperty Name="Data_Email" ColumnName="Data_Email" />
+          <ScalarProperty Name="FK_Pessoa" ColumnName="FK_Pessoa" />
+          <ScalarProperty Name="comentario" ColumnName="comentario" />
+          <ScalarProperty Name="hora" ColumnName="hora" />
+          <ScalarProperty Name="data" ColumnName="data" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

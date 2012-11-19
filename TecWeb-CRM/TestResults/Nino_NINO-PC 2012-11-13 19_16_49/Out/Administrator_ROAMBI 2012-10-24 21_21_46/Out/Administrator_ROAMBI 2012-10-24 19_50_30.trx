@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3dff3b59-dd87-490f-8f1d-e0a041bb21e5" name="Administrator@ROAMBI 2012-10-24 19:50:30" runUser="ROAMBI\Administrator" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="c64711a4-0654-447b-bdfe-06f83aac8f92">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrator_ROAMBI 2012-10-24 19_50_30">
+      <DeploymentItem filename="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM\bin\TecWeb-CRM.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-24T19:50:30.9562690-02:00" queuing="2012-10-24T19:50:30.9982585-02:00" start="2012-10-24T19:50:31.1759815-02:00" finish="2012-10-24T19:50:33.1699945-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="6" executed="6" error="0" failed="4" timeout="0" aborted="0" inconclusive="2" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="InserirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="529765cb-1eea-94bf-b143-4b218e5b8a36">
+      <Execution id="b0341cc5-2204-4a6b-9773-c7f5719f3c3a" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InserirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="CRM_DAO_PessoaConstructorTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="4f5b839a-215d-e6d4-a0de-94b7c218b2e1">
+      <Execution id="3b22c3db-2b3d-41d4-a063-5d681447edc4" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CRM_DAO_PessoaConstructorTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ConnectionTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="83a1b2eb-01d3-fd1a-463d-4796628a35e0">
+      <Execution id="2cbec9b0-658a-4a70-83cb-8eae5c078f62" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ConnectionTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="AlterarPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f">
+      <Execution id="1bba9137-8a46-47d9-9c48-4ecd94fd327f" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AlterarPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="ExcluirPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="72233ad4-4cf6-41f3-2bf9-4d1886f80555">
+      <Execution id="d091144b-af6d-4bce-83d4-c8e1dad5afa1" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ExcluirPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+    <UnitTest name="SelecionarTodosPessoaTest" storage="c:\users\administrator\desktop\tecweb-crm\teste_dao2\bin\debug\teste_dao2.dll" id="0617cf11-7817-cc32-76d0-458e3a3f0381">
+      <Execution id="d05dbed8-d33e-47ee-81e2-99fb777b5885" />
+      <TestMethod codeBase="C:/Users/Administrator/Desktop/TecWeb-CRM/TESTE_DAO2/bin/Debug/TESTE_DAO2.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TESTE_DAO2.CRM_DAO_PessoaTest, TESTE_DAO2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelecionarTodosPessoaTest" />
+      <AspNet webSiteUrl="http://localhost:52314/">
+        <Host pathToWebApp="C:\Users\Administrator\Desktop\TecWeb-CRM\TecWeb-CRM" webAppRoot="/" />
+      </AspNet>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0617cf11-7817-cc32-76d0-458e3a3f0381" executionId="d05dbed8-d33e-47ee-81e2-99fb777b5885" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" executionId="3b22c3db-2b3d-41d4-a063-5d681447edc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="529765cb-1eea-94bf-b143-4b218e5b8a36" executionId="b0341cc5-2204-4a6b-9773-c7f5719f3c3a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" executionId="d091144b-af6d-4bce-83d4-c8e1dad5afa1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" executionId="2cbec9b0-658a-4a70-83cb-8eae5c078f62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" executionId="1bba9137-8a46-47d9-9c48-4ecd94fd327f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d05dbed8-d33e-47ee-81e2-99fb777b5885" testId="0617cf11-7817-cc32-76d0-458e3a3f0381" testName="SelecionarTodosPessoaTest" computerName="ROAMBI" duration="00:00:00.0316467" startTime="2012-10-24T19:50:31.2238300-02:00" endTime="2012-10-24T19:50:32.8428670-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d05dbed8-d33e-47ee-81e2-99fb777b5885">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TESTE_DAO2.CRM_DAO_PessoaTest.SelecionarTodosPessoaTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\App_Data\CRM_DataBase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TecWeb_CRM.CRM.Dao.CRM_DAO_Pessoa.SelecionarTodosPessoa() in \\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Pesssoa.cs:line 33
+   at TESTE_DAO2.CRM_DAO_PessoaTest.SelecionarTodosPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 154
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b22c3db-2b3d-41d4-a063-5d681447edc4" testId="4f5b839a-215d-e6d4-a0de-94b7c218b2e1" testName="CRM_DAO_PessoaConstructorTest" computerName="ROAMBI" duration="00:00:00.0014490" startTime="2012-10-24T19:50:32.8457965-02:00" endTime="2012-10-24T19:50:32.8887625-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b22c3db-2b3d-41d4-a063-5d681447edc4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TESTE_DAO2.CRM_DAO_PessoaTest.CRM_DAO_PessoaConstructorTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b0341cc5-2204-4a6b-9773-c7f5719f3c3a" testId="529765cb-1eea-94bf-b143-4b218e5b8a36" testName="InserirPessoaTest" computerName="ROAMBI" duration="00:00:00.0009417" startTime="2012-10-24T19:50:32.8897390-02:00" endTime="2012-10-24T19:50:32.9414935-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0341cc5-2204-4a6b-9773-c7f5719f3c3a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TESTE_DAO2.CRM_DAO_PessoaTest.InserirPessoaTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\App_Data\CRM_DataBase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TecWeb_CRM.CRM.Dao.CRM_DAO_Pessoa.InserirPessoa(Pessoa Cliente) in \\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Pesssoa.cs:line 63
+   at TESTE_DAO2.CRM_DAO_PessoaTest.InserirPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 135
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d091144b-af6d-4bce-83d4-c8e1dad5afa1" testId="72233ad4-4cf6-41f3-2bf9-4d1886f80555" testName="ExcluirPessoaTest" computerName="ROAMBI" duration="00:00:00.0003408" startTime="2012-10-24T19:50:32.9444230-02:00" endTime="2012-10-24T19:50:32.9903185-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d091144b-af6d-4bce-83d4-c8e1dad5afa1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TESTE_DAO2.CRM_DAO_PessoaTest.ExcluirPessoaTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\App_Data\CRM_DataBase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TecWeb_CRM.CRM.Dao.CRM_DAO_Pessoa.ExcluirPessoa() in \\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Pesssoa.cs:line 75
+   at TESTE_DAO2.CRM_DAO_PessoaTest.ExcluirPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2cbec9b0-658a-4a70-83cb-8eae5c078f62" testId="83a1b2eb-01d3-fd1a-463d-4796628a35e0" testName="ConnectionTest" computerName="ROAMBI" duration="00:00:00.0008523" startTime="2012-10-24T19:50:32.9952010-02:00" endTime="2012-10-24T19:50:33.0489085-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cbec9b0-658a-4a70-83cb-8eae5c078f62">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TESTE_DAO2.CRM_DAO_PessoaTest.ConnectionTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 177
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1bba9137-8a46-47d9-9c48-4ecd94fd327f" testId="975b78c0-9612-e48c-2ad6-0fb9f3f0d26f" testName="AlterarPessoaTest" computerName="ROAMBI" duration="00:00:00.0008182" startTime="2012-10-24T19:50:33.0537910-02:00" endTime="2012-10-24T19:50:33.1104280-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bba9137-8a46-47d9-9c48-4ecd94fd327f">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TESTE_DAO2.CRM_DAO_PessoaTest.AlterarPessoaTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\Nino\Desktop\TecWeb-CRM\TecWeb-CRM\App_Data\CRM_DataBase.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at TecWeb_CRM.CRM.Dao.CRM_DAO_Pessoa.AlterarPessoa() in \\vmware-host\Shared Folders\Arquivos\TecWeb-CRM\TecWeb-CRM\CRM.Dao\CRM_DAO_Pesssoa.cs:line 69
+   at TESTE_DAO2.CRM_DAO_PessoaTest.AlterarPessoaTest() in C:\Users\Administrator\Desktop\TecWeb-CRM\TESTE_DAO2\CRM_DAO_PessoaTest.cs:line 100
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
