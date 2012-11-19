@@ -1,0 +1,7 @@
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\bin\Debug\TesteEmail.dll
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\bin\Debug\TesteEmail.pdb
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\bin\Debug\Tentativa.exe
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\bin\Debug\Tentativa.pdb
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\obj\Debug\ResolveAssemblyReference.cache
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\obj\Debug\TesteEmail.dll
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\obj\Debug\TesteEmail.pdb

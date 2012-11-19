@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="EnvioNDiasTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="d1d66832-9168-8166-82fe-3674d4ee6c8f">
+  <Signatures>
+    <Signature>A3A7FC57569F04BE3C7B253B1962642081C3109B</Signature>
+    <Signature>228EDF87680856AB585249AE75DEEDD9C9211301</Signature>
+    <Signature>3AFC35B1D1834076B1E1317C3FB9F7DD8A68C4BC</Signature>
+    <Signature>11337D3F2E4570035C1B86E116E4C561367E117F</Signature>
+    <Signature>A71BD437D23E1A80F9097BEF611670D02B6E94C8</Signature>
+    <Signature>C6DA6A1ED686EBCE5338D8C72AA1D9A66AA2DE95</Signature>
+  </Signatures>
+</Test>

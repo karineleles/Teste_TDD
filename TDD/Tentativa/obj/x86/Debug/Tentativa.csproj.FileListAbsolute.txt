@@ -1,0 +1,5 @@
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\bin\Debug\Tentativa.exe
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\bin\Debug\Tentativa.pdb
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\obj\x86\Debug\Tentativa.exe
+c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\obj\x86\Debug\Tentativa.pdb

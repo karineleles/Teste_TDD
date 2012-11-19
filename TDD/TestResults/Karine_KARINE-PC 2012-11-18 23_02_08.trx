@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f5d75cfa-a76a-46ba-9ece-f7974f88386a" name="Karine@KARINE-PC 2012-11-18 23:02:08" runUser="Karine-PC\Karine" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="942bc576-e83a-4bb4-a420-11f934cc75a4">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Deployment runDeploymentRoot="Karine_KARINE-PC 2012-11-18 23_02_08">
+      <DeploymentItem filename="c:\users\karine\documents\visual studio 2010\Projects\Tentativa\Tentativa\bin\Debug\Tentativa.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/SystemInfo/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo.SystemInfoDataCollector, Microsoft.VisualStudio.TestTools.DataCollection.SystemInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="System Information">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/ActionLog/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.ManualTest.ActionLog.ActionLogPlugin, Microsoft.VisualStudio.TestTools.ManualTest.ActionLog, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Actions">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/HttpProxy/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.HttpProxyCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TestImpact/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TestImpactDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Test Impact">
+          </DataCollector>
+          <DataCollector uri="datacollector://microsoft/TraceDebugger/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TraceCollector.TraceDebuggerDataCollector, Microsoft.VisualStudio.TraceCollector, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="IntelliTrace">
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-18T23:02:08.6285869-02:00" queuing="2012-11-18T23:02:10.9757211-02:00" start="2012-11-18T23:02:22.8874024-02:00" finish="2012-11-18T23:02:31.5979006-02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <CollectorDataEntries>
+      <Collector agentName="KARINE-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="KARINE-PC\SystemInformation.xml">System Information from KARINE-PC</A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+    <DataCollectorMessages>
+      <DataCollectorMessage timestamp="2012-11-18T23:02:11.0377246-02:00" dataCollectorUri="datacollector://microsoft/HttpProxy/1.0" dataCollectorFriendlyName="ASP.NET Client Proxy for IntelliTrace and Test Impact" agentName="KARINE-PC" level="Warning">
+        <Text>An error occurred while installing and starting the HTTP proxy used to associate tests with web requests. PRXY0022: When registering the proxy, another instance of the proxy was detected at end point '127.0.0.1:47822'. Multiple instances of this proxy are not allowed for the same user on the same computer. (To override this behavior, use the 'AllowMultipleProxies' configuration option.)</Text>
+      </DataCollectorMessage>
+    </DataCollectorMessages>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="EnvioNDiasSabDomTest" storage="c:\users\karine\documents\visual studio 2010\projects\tentativa\testeemail\bin\debug\testeemail.dll" id="a124814d-f368-fbc4-a669-8fa4db0552bf">
+      <Execution id="2e59fb35-d8c7-4841-b2dc-15a16a71dd01" />
+      <TestMethod codeBase="c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\bin\Debug\TesteEmail.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TesteEmail.EnvioEmailTest, TesteEmail" name="EnvioNDiasSabDomTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a124814d-f368-fbc4-a669-8fa4db0552bf" executionId="2e59fb35-d8c7-4841-b2dc-15a16a71dd01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2e59fb35-d8c7-4841-b2dc-15a16a71dd01" testId="a124814d-f368-fbc4-a669-8fa4db0552bf" testName="EnvioNDiasSabDomTest" computerName="KARINE-PC" duration="00:00:00.2309301" startTime="2012-11-18T23:02:23.2784248-02:00" endTime="2012-11-18T23:02:25.0135240-02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e59fb35-d8c7-4841-b2dc-15a16a71dd01">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;True&gt;. Actual:&lt;False&gt;. </Message>
+          <StackTrace>   em TesteEmail.EnvioEmailTest.EnvioNDiasSabDomTest() na c:\users\karine\documents\visual studio 2010\Projects\Tentativa\TesteEmail\EnvioEmailTest.cs:linha 86
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <CollectorDataEntries>
+        <Collector agentName="KARINE-PC" uri="datacollector://microsoft/SystemInfo/1.0" collectorDisplayName="System Information">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="KARINE-PC\SystemInformation.xml">System Information from KARINE-PC</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+        <Collector agentName="KARINE-PC" uri="datacollector://microsoft/TraceDebugger/1.0" collectorDisplayName="IntelliTrace">
+          <UriAttachments>
+            <UriAttachment>
+              <A href="KARINE-PC\QTAgent32_121118_230224635_12660.iTrace">IntelliTrace file for 'QTAgent32.exe' (12660)</A>
+            </UriAttachment>
+          </UriAttachments>
+        </Collector>
+      </CollectorDataEntries>
+    </UnitTestResult>
+  </Results>
+</TestRun>

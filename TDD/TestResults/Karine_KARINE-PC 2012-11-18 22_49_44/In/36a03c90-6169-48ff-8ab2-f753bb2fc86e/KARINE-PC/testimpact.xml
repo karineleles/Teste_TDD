@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ValidaDataTest" IsTestCase="false" TestCaseId="0" AutomatedTestId="c6fe8d4f-242f-dea2-1e9d-3d1499e92bf0">
+  <Signatures>
+    <Signature>A3A7FC57569F04BE3C7B253B1962642081C3109B</Signature>
+    <Signature>AE19D9A655B1F8AB9100591D2AF19CF7EA458AAE</Signature>
+    <Signature>3AFC35B1D1834076B1E1317C3FB9F7DD8A68C4BC</Signature>
+    <Signature>EA1433055F102B4BA39DEAAAEAF5CF22D8CC04F3</Signature>
+    <Signature>C6DA6A1ED686EBCE5338D8C72AA1D9A66AA2DE95</Signature>
+  </Signatures>
+</Test>
